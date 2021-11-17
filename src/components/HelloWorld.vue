@@ -1,10 +1,8 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import Hello from "@/lib/prime";
 
 defineProps<{ msg: string }>();
 
-Hello();
 const count = ref(0);
 </script>
 
