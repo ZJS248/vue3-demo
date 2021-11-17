@@ -1,0 +1,101 @@
+{
+  "explorer.confirmDelete": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.wordWrap": "off",
+    "editor.tabSize": 2
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.quickSuggestions": true,
+  "editor.suggest.insertMode": "replace",
+  "editor.suggest.shareSuggestSelections": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.linkedEditing": true,
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.options.tabSize": 2,
+  "vetur.grammar.customBlocks": {
+    "docs": "md",
+    "i18n": "json"
+  },
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_line_length": 220,
+      "wrap_attributes": "auto",
+      // - auto: 仅在超出行长度时才对属性进行换行。
+      // - force: 对除第一个属性外的其他每个属性进行换行。
+      // - force-aligned: 对除第一个属性外的其他每个属性进行换行，并保持对齐。
+      // - force-expand-multiline: 对每个属性进行换行。
+      // - aligned-multiple: 当超出折行长度时，将属性进行垂直对齐。
+      "end_with_newline": false, //使用换行结束输出
+      "singleQuote": true // - 使用单引号替代双引号
+    },
+    "prettyhtml": {
+      "printWidth": 200,
+      "singleQuote": true,
+      "wrapAttributes": true,
+      "sortAttributes": false
+      // "eslintIntegration": true
+    }
+  },
+  "html.format.unformatted": "wbr",
+  "html.format.wrapLineLength": 220,
+  "git.confirmSync": false,
+  "files.associations": {
+    "*.vue": "vue"
+  },
+  "vue3snippets.tabWidth": 2,
+  "vue3snippets.printWidth": 180,
+  "vue3snippets.proseWrap": "preserve",
+  "vue3snippets.jsxBracketSameLine": false,
+  "editor.formatOnSave": true,
+  "git.enableSmartCommit": true,
+  // "[vue]": {
+  //     "editor.defaultFormatter": "Wscats.vue"
+  // },
+  "vetur.format.defaultFormatter.js": "prettier-eslint",
+  "eslint.trace.server": "verbose",
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "css"
+  ],
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "editor.tabSize": 2,
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "html",
+    "vue",
+    "markdown",
+    "css"
+  ]
+}
