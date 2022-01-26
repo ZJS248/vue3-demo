@@ -6,3 +6,4 @@ dist-ssr
 test
 .eslintcache
 components.d.ts
+stats.html
